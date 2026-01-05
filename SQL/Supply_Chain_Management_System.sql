@@ -281,7 +281,7 @@ GO
 INSERT INTO dbo.fact_sales_monthly
     (date, fiscal_year, product_code, customer_code, sold_quantity)
 VALUES
--- AtliQ E-Store India (70020016) – 2023
+-- AtliQ E-Store India (70020016) Â– 2023
 ('2023-01-01', 2023, 'AQ_MSE_01', 70020016, 1200),
 ('2023-01-01', 2023, 'AQ_KBD_01', 70020016,  800),
 ('2023-02-01', 2023, 'AQ_MSE_01', 70020016, 1500),
@@ -289,21 +289,21 @@ VALUES
 ('2023-03-01', 2023, 'AQ_MSE_01', 70020016, 1400),
 ('2023-03-01', 2023, 'AQ_LTP_01', 70020016,  200),
 
--- Croma India (70020017) – 2023
+-- Croma India (70020017) Â– 2023
 ('2023-01-01', 2023, 'AQ_MSE_01', 70020017,  600),
 ('2023-01-01', 2023, 'AQ_MON_01', 70020017,  250),
 ('2023-02-01', 2023, 'AQ_MSE_01', 70020017,  700),
 ('2023-02-01', 2023, 'AQ_MON_01', 70020017,  260),
 
--- Amazon India (70020018) – 2023
+-- Amazon India (70020018) Â– 2023
 ('2023-01-01', 2023, 'AQ_LTP_01', 70020018,  150),
 ('2023-02-01', 2023, 'AQ_LTP_01', 70020018,  180),
 
--- BestBuy USA (70020019) – 2023
+-- BestBuy USA (70020019) Â– 2023
 ('2023-01-01', 2023, 'AQ_MON_01', 70020019,  400),
 ('2023-01-01', 2023, 'AQ_PRN_01', 70020019,  150),
 
--- Amazon USA (70020020) – 2023
+-- Amazon USA (70020020) Â– 2023
 ('2023-01-01', 2023, 'AQ_HDD_01', 70020020,  500),
 ('2023-02-01', 2023, 'AQ_HDD_01', 70020020,  550);
 GO
@@ -311,7 +311,7 @@ GO
 INSERT INTO dbo.fact_forecast_monthly
     (date, fiscal_year, product_code, customer_code, forecast_quantity)
 VALUES
--- AtliQ E-Store India (70020016) – 2023 forecast
+-- AtliQ E-Store India (70020016) Â– 2023 forecast
 ('2023-01-01', 2023, 'AQ_MSE_01', 70020016, 1300),
 ('2023-01-01', 2023, 'AQ_KBD_01', 70020016,  850),
 ('2023-02-01', 2023, 'AQ_MSE_01', 70020016, 1450),
@@ -319,13 +319,13 @@ VALUES
 ('2023-03-01', 2023, 'AQ_MSE_01', 70020016, 1500),
 ('2023-03-01', 2023, 'AQ_LTP_01', 70020016,  220),
 
--- Croma India (70020017) – 2023 forecast
+-- Croma India (70020017) Â– 2023 forecast
 ('2023-01-01', 2023, 'AQ_MSE_01', 70020017,  650),
 ('2023-01-01', 2023, 'AQ_MON_01', 70020017,  260),
 ('2023-02-01', 2023, 'AQ_MSE_01', 70020017,  750),
 ('2023-02-01', 2023, 'AQ_MON_01', 70020017,  270),
 
--- Amazon India (70020018) – 2023 forecast
+-- Amazon India (70020018) Â– 2023 forecast
 ('2023-01-01', 2023, 'AQ_LTP_01', 70020018,  160),
 ('2023-02-01', 2023, 'AQ_LTP_01', 70020018,  190);
 GO
@@ -1543,10 +1543,10 @@ GO
 
 
 /************************************************************************************
- * STEP 0 – Declare product parameter (NO GO after this!)
+ * STEP 0 Â– Declare product parameter (NO GO after this!)
  ************************************************************************************/
 DECLARE @product_code VARCHAR(20) = 'AQ_MSE_01';   -- change as needed
--- DO NOT PUT "GO" HERE — It resets the variable!
+-- DO NOT PUT "GO" HERE Â— It resets the variable!
 
 USE SupplyChainFinanceManagement;
 GO
@@ -1598,7 +1598,7 @@ ORDER BY
 
 
 /************************************************************************************
- * STEP 2 – Final Output: Forecast vs Actual + Accuracy %
+ * STEP 2 Â– Final Output: Forecast vs Actual + Accuracy %
  ************************************************************************************/
 USE SupplyChainFinanceManagement;
 GO
